@@ -1,13 +1,12 @@
 /* HEADER */
 
 header {
-  /* height: 100px; */
   background-color: red;
 }
 
 /* TOP HEADER */
 
-.logo {
+.logo-azienda-header {
   background-color: green;
 }
 .menu-header-destra {
@@ -16,6 +15,8 @@ header {
 .menu-header-centro {
   background-color: yellow;
 }
+
+/* /TOP HEADER */
 
 /* HERO */
 
@@ -28,3 +29,23 @@ header {
 .form-hero {
   background-color: gray;
 }
+
+/* /HERO */
+
+/* /HEADER */
+
+/* MAIN */
+
+/* PRIMA SEZIONE */
+
+.partnership {
+  background-color: pink;
+}
+.logo-partnership {
+  color: red;
+}
+/* /PRIMA SEZIONE */
+
+/* SECONDA SEZIONE */
+
+/* /SECONDA SEZIONE */
