@@ -51,6 +51,11 @@
   color: #fff;
   background-color: #247CFA;
 }
+.hamburger {
+  text-align: right;
+  color: #247CFA;
+  font-size: 20px;
+}
 /* /TOP HEADER */
 
 /* HERO */
