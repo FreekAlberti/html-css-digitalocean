@@ -56,6 +56,19 @@ header {
 }
 /* /SECONDA SEZIONE */
 
+/* TERZA SEZIONE */
+
 .slider {
   color: blue;
 }
+
+/* /TERZA SEZIONE */
+
+/* QUARTA SEZIONE */
+.features {
+  background-color: red;
+}
+.feature-centrale {
+  color: #fff;
+}
+/* /QUARTA SEZIONE */
