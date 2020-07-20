@@ -5,7 +5,6 @@ header {
 }
 
 /* TOP HEADER */
-
 .logo-azienda-header {
   background-color: green;
 }
@@ -15,11 +14,9 @@ header {
 .menu-header-centro {
   background-color: yellow;
 }
-
 /* /TOP HEADER */
 
 /* HERO */
-
 .hero {
   background-color: blue;
 }
@@ -29,7 +26,6 @@ header {
 .form-hero {
   background-color: gray;
 }
-
 /* /HERO */
 
 /* /HEADER */
@@ -37,7 +33,6 @@ header {
 /* MAIN */
 
 /* PRIMA SEZIONE */
-
 .partnership {
   background-color: pink;
 }
@@ -47,7 +42,6 @@ header {
 /* /PRIMA SEZIONE */
 
 /* SECONDA SEZIONE */
-
 .vantaggi {
   background-color: green;
 }
@@ -57,11 +51,9 @@ header {
 /* /SECONDA SEZIONE */
 
 /* TERZA SEZIONE */
-
 .slider {
   color: blue;
 }
-
 /* /TERZA SEZIONE */
 
 /* QUARTA SEZIONE */
@@ -72,3 +64,16 @@ header {
   color: #fff;
 }
 /* /QUARTA SEZIONE */
+
+/* QUINTA SEZIONE */
+.around-the-world {
+  background-color: blue;
+  color: #fff;
+}
+.atw-destra {
+  color: orange;
+}
+/* /QUINTA SEZIONE */
+
+/* SESTA SEZIONE */
+/* /SESTA SEZIONE */
