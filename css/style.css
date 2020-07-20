@@ -79,5 +79,20 @@ header {
 /* /SESTA SEZIONE */
 
 /* FOOTER */
+footer {
+  color: black;
+}
+
+/* FOOTER-TOP */
+.footer-top {
+  background-color: yellow;
+}
+/* /FOOTER-TOP */
+
+/* FOOTER-BOTTOM */
+.footer-bottom {
+  background-color: orange;
+}
+/* /FOOTER-BOTTOM */
 
 /* /FOOTER */
