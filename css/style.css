@@ -31,7 +31,7 @@
   color: black;
   font-weight: bold;
 }
-.nav-header-centrale li a i, .nav-header-destra li a i {
+.nav-header-centrale li a i, .nav-header-destra li a i, .stories i {
   margin-left: 5px;
 }
 .nav-header-centrale li a:hover, .nav-header-destra li a:hover {
@@ -53,7 +53,7 @@
 }
 .hamburger {
   text-align: right;
-  color: .form-hero h3
+  color:  #247CFA;
   font-size: 20px;
 }
 /* /TOP HEADER */
@@ -105,10 +105,21 @@
 
 /* PRIMA SEZIONE */
 .partnership {
-  background-color: pink;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #F3F5F9;
 }
-.logo-partnership {
-  color: red;
+.partnership h5 {
+  color: gray;
+  text-transform: uppercase;
+}
+.logo-partnership img {
+  width: 100%;
+}
+.stories a {
+  color: #347DFA;
+  text-decoration: none;
+  font-weight: bold;
 }
 /* /PRIMA SEZIONE */
 
