@@ -22,24 +22,34 @@
 .logo-azienda-header img{
   width: 100%;
 }
-.nav-header-centrale li{
+.nav-header-centrale li, .nav-header-destra li {
   text-decoration: none;
   display: inline-block;
-  padding: 0 10px;
+  padding-right: 10px;
 }
-.nav-header-centrale li a {
+.nav-header-centrale li a, .nav-header-destra li a {
   color: black;
   font-weight: bold;
 }
-.nav-header-centrale li a i {
+.nav-header-centrale li a i, .nav-header-destra li a i {
   margin-left: 5px;
 }
-.nav-header-centrale li a:hover {
+.nav-header-centrale li a:hover, .nav-header-destra li a:hover {
   text-decoration: none;
   color: blue;
 }
-.menu-header-destra {
-  background-color: orange;
+.nav-header-destra {
+  text-align: right;
+}
+#bottone-speciale {
+  border: 1px solid #247CFA;
+  padding: 10px;
+  border-radius: 3px;
+  color: #247CFA;
+}
+#bottone-speciale:hover {
+  color: #fff;
+  background-color: #247CFA;
 }
 /* /TOP HEADER */
 
