@@ -61,10 +61,15 @@
 /* HERO */
 .hero {
   margin-top:70px;
+  padding: 35px 0;
   background-color: blue;
-}
-.testo-hero {
   color: #fff;
+}
+.jumbo h1 {
+  font-size: 65px;
+}
+.jumbo p {
+  font-size: 22px;
 }
 .form-hero {
   background-color: gray;
