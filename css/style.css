@@ -1,0 +1,20 @@
+/* HEADER */
+
+header {
+  height: 100px;
+  background-color: red;
+}
+
+/* TOP HEADER */
+
+.logo {
+  background-color: green;
+}
+.menu-header-destra {
+  background-color: blue;
+}
+.menu-header-centro {
+  background-color: yellow;
+}
+
+/* HERO */
