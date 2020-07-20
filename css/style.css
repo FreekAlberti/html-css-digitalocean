@@ -1,23 +1,45 @@
+/* MIX */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+/* /MIX */
+
 /* HEADER */
 
 /* TOP HEADER */
 .header-top {
   height: 70px;
+  width: 100%;
   background-color: #fff;
   padding: 10px 0;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
+  line-height: 50px;
+  vertical-align: middle;
 }
 .logo-azienda-header img{
   width: 100%;
 }
+.nav-header-centrale li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+.nav-header-centrale li a {
+  color: black;
+  font-weight: bold;
+}
+.nav-header-centrale li a i {
+  margin-left: 5px;
+}
+.nav-header-centrale li a:hover {
+  text-decoration: none;
+  color: blue;
+}
 .menu-header-destra {
   background-color: orange;
-}
-.menu-header-centro {
-  background-color: yellow;
 }
 /* /TOP HEADER */
 
