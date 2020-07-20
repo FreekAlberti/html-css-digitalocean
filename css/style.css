@@ -1,8 +1,12 @@
 /* HEADER */
 
 /* TOP HEADER */
-.logo-azienda-header {
-  background-color: green;
+.header-top {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.logo-azienda-header img{
+  width: 100%;
 }
 .menu-header-destra {
   background-color: orange;
