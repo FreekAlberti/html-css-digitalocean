@@ -2,6 +2,14 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+.titolo-paragrafo {
+  color: #05224E;
+  font-size: 35px;
+}
+.testo-paragrafo {
+font-size: 20px;
+color: #586686;
+}
 /* /MIX */
 
 /* HEADER */
@@ -73,6 +81,7 @@
 }
 .form-hero {
   margin-top: 20px;
+  padding: 0 20px;
   text-align: center;
   background-color: #fff;
   border-radius: 5px;
@@ -124,11 +133,16 @@
 /* /PRIMA SEZIONE */
 
 /* SECONDA SEZIONE */
-.vantaggi {
-  background-color: green;
+.descrizione-vantaggi {
+  text-align: center;
 }
-.spiegazione {
-  color: yellow;
+.lista-vantaggi li {
+  text-decoration: none;
+  border-left: 2px solid #586686;
+  color: #586686;
+  list-style: none;
+  padding: 15px;
+  font-size: 20px;
 }
 /* /SECONDA SEZIONE */
 
