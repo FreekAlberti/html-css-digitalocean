@@ -17,6 +17,9 @@ color: #586686;
 .testo-sottoparagrafo {
   color: #586686;
 }
+.mar-bottom-40 {
+  margin-bottom: 40px;
+}
 /* /MIX */
 
 /* HEADER */
@@ -53,9 +56,6 @@ color: #586686;
   text-decoration: none;
   color: blue;
 }
-.nav-header-destra {
-  text-align: right;
-}
 #bottone-speciale {
   border: 1px solid #247CFA;
   padding: 10px;
@@ -67,7 +67,6 @@ color: #586686;
   background-color: #247CFA;
 }
 .hamburger {
-  text-align: right;
   color:  #247CFA;
   font-size: 20px;
 }
@@ -140,9 +139,6 @@ color: #586686;
 /* /PRIMA SEZIONE */
 
 /* SECONDA SEZIONE */
-.descrizione-vantaggi {
-  text-align: center;
-}
 .lista-vantaggi {
   margin: 25px 0;
 }
@@ -154,14 +150,29 @@ color: #586686;
   padding: 10px 15px;
   font-size: 20px;
 }
-/* .illustrazione-vantaggi > div {
-  max-height: 200px;
-} */
 /* /SECONDA SEZIONE */
 
 /* TERZA SEZIONE */
-.slider {
-  color: blue;
+.angolo {
+  font-size: 45px;
+  color: rgb(5, 34, 78);
+}
+.max {
+  max-height: 400px;
+}
+.pagina {
+  margin-top: 30px;
+}
+.pagina p {
+  color: rgb(5, 34, 78);
+  font-weight: bold;
+}
+.pallini li {
+  text-decoration: none;
+  display: inline-block;
+}
+.pallini li i {
+  color: #11C0EA;
 }
 /* /TERZA SEZIONE */
 
