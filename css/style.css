@@ -10,6 +10,13 @@
 font-size: 20px;
 color: #586686;
 }
+.titolo-sottoparagrafo {
+  color: #05224E;
+  font-size: 20px;
+}
+.testo-sottoparagrafo {
+  color: #586686;
+}
 /* /MIX */
 
 /* HEADER */
@@ -136,13 +143,19 @@ color: #586686;
 .descrizione-vantaggi {
   text-align: center;
 }
+.lista-vantaggi {
+  margin: 25px 0;
+}
 .lista-vantaggi li {
   text-decoration: none;
-  border-left: 2px solid #586686;
-  color: #586686;
+  border-left: 2px solid #BFC4CF;
+  color: #BFC4CF;
   list-style: none;
-  padding: 15px;
+  padding: 10px 15px;
   font-size: 20px;
+}
+.illustrazione-vantaggi > div {
+  height: 150px;
 }
 /* /SECONDA SEZIONE */
 
