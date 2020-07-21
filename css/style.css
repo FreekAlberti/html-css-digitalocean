@@ -197,14 +197,19 @@ color: #586686;
 .atw-list {
   text-decoration: none;
   display: inline-block;
-  background-color: red;
   list-style: none;
+  width: 100%;
 }
 .atw-list li {
   border-bottom: 2px solid white;
+  padding: 5px;
 }
-.atw-list .blocco {
-  display: block;
+.codice-city {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nome-city {
+  color: #98AEE1;
 }
 /* /QUINTA SEZIONE */
 
