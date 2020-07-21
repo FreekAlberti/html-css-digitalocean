@@ -23,6 +23,10 @@ color: #586686;
 .nav-header-centrale li a i, .nav-header-destra li a i, .stories i, .indice-servizi i  {
   margin-left: 5px;
 }
+.titolo-bianco {
+  font-size: 35px;
+  color: #fff;
+}
 /* /MIX */
 
 /* HEADER */
@@ -181,17 +185,35 @@ color: #586686;
 
 /* QUINTA SEZIONE */
 .around-the-world {
-  background-color: blue;
+  background-color: #1660C4;
   color: #fff;
+  padding: 40px 0;
 }
-.atw-destra {
-  color: orange;
+.atw-list {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.atw-list {
+  text-decoration: none;
+  display: inline-block;
+  background-color: red;
+  list-style: none;
+}
+.atw-list li {
+  border-bottom: 2px solid white;
+}
+.atw-list .blocco {
+  display: block;
 }
 /* /QUINTA SEZIONE */
 
 /* SESTA SEZIONE */
 /* /SESTA SEZIONE */
-
+.debug {
+  background-color: red;
+  border: 1px solid black;
+}
 /* FOOTER */
 footer {
   color: black;
