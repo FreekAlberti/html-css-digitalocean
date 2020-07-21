@@ -27,7 +27,8 @@ color: #586686;
 .nav-header-destra li a i,
 .stories i,
 .indice-servizi i,
-.test-speed i {
+.test-speed i,
+.slider2 i {
   margin-left: 5px;
 }
 .titolo-bianco {
@@ -249,6 +250,9 @@ color: #586686;
 /* /QUINTA SEZIONE */
 
 /* SESTA SEZIONE */
+.slider2 img {
+  max-width: 400px;
+}
 /* /SESTA SEZIONE */
 
 /* FOOTER */
