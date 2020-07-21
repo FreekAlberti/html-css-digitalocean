@@ -130,7 +130,7 @@ color: #586686;
   text-transform: uppercase;
 }
 .logo-partnership img {
-  width: 100%;
+  max-height: 80px;
 }
 .stories a {
   color: #347DFA;
@@ -154,9 +154,9 @@ color: #586686;
   padding: 10px 15px;
   font-size: 20px;
 }
-.illustrazione-vantaggi > div {
-  height: 150px;
-}
+/* .illustrazione-vantaggi > div {
+  max-height: 200px;
+} */
 /* /SECONDA SEZIONE */
 
 /* TERZA SEZIONE */
@@ -213,3 +213,9 @@ footer {
 /* /FOOTER-BOTTOM */
 
 /* /FOOTER */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo-partnership img {
+    max-height: 60px;
+  }
+}
