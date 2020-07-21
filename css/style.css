@@ -20,6 +20,9 @@ color: #586686;
 .mar-bottom-40 {
   margin-bottom: 40px;
 }
+.nav-header-centrale li a i, .nav-header-destra li a i, .stories i, .indice-servizi i  {
+  margin-left: 5px;
+}
 /* /MIX */
 
 /* HEADER */
@@ -48,9 +51,6 @@ color: #586686;
 .nav-header-centrale li a, .nav-header-destra li a {
   color: black;
   font-weight: bold;
-}
-.nav-header-centrale li a i, .nav-header-destra li a i, .stories i {
-  margin-left: 5px;
 }
 .nav-header-centrale li a:hover, .nav-header-destra li a:hover {
   text-decoration: none;
@@ -177,12 +177,6 @@ color: #586686;
 /* /TERZA SEZIONE */
 
 /* QUARTA SEZIONE */
-.features {
-  background-color: red;
-}
-.feature-centrale {
-  color: #fff;
-}
 /* /QUARTA SEZIONE */
 
 /* QUINTA SEZIONE */
