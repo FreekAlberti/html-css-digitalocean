@@ -20,7 +20,14 @@ color: #586686;
 .mar-bottom-40 {
   margin-bottom: 40px;
 }
-.nav-header-centrale li a i, .nav-header-destra li a i, .stories i, .indice-servizi i  {
+.mar-bottom-30 {
+  margin-bottom: 30px;
+}
+.nav-header-centrale li a i,
+.nav-header-destra li a i,
+.stories i,
+.indice-servizi i,
+.test-speed i {
   margin-left: 5px;
 }
 .titolo-bianco {
@@ -185,7 +192,7 @@ color: #586686;
 
 /* QUINTA SEZIONE */
 .around-the-world {
-  background-color: #1660C4;
+   background-image: linear-gradient(to bottom right, #1761C6, #174A99);
   color: #fff;
   padding: 40px 0;
 }
@@ -204,6 +211,9 @@ color: #586686;
   border-bottom: 2px solid white;
   padding: 5px;
 }
+.atw-list li:last-child {
+  border: none;
+}
 .codice-city {
   font-weight: bold;
   text-transform: uppercase;
@@ -211,14 +221,18 @@ color: #586686;
 .nome-city {
   color: #98AEE1;
 }
+.test-speed {
+  color: #24B8CD;
+}
+.test-speed:hover {
+  color: violet;
+  text-decoration: none;
+}
 /* /QUINTA SEZIONE */
 
 /* SESTA SEZIONE */
 /* /SESTA SEZIONE */
-.debug {
-  background-color: red;
-  border: 1px solid black;
-}
+
 /* FOOTER */
 footer {
   color: black;
