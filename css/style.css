@@ -188,7 +188,7 @@ color: #586686;
   color: rgb(5, 34, 78);
   position: absolute;
   top: 35%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
   left: 0;
 }
 .angolo-des {
@@ -196,12 +196,12 @@ color: #586686;
   color: rgb(5, 34, 78);
   position: absolute;
   top: 35%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
   right: 0;
 }
 .max {
   max-height: 400px;
-  margin: auto;
+  margin: 0 50px;
 }
 .pagina {
   margin-top: 30px;
