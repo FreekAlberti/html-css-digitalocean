@@ -206,7 +206,7 @@ color: #586686;
 .pagina {
   margin-top: 30px;
 }
-.pagina p {
+.pagina p, #co-fondatore {
   color: rgb(5, 34, 78);
   font-weight: bold;
 }
