@@ -38,8 +38,11 @@ color: #586686;
   font-size: 35px;
   color: #fff;
 }
-.pallini {
+.pallini, .social, .lista-footer {
   padding-inline-start: 0;
+}
+.margin-top-40 {
+  margin-top: 40px;
 }
 /* /MIX */
 
@@ -61,7 +64,7 @@ color: #586686;
 .logo-azienda-header img{
   width: 100%;
 }
-.nav-header-centrale li, .nav-header-destra li {
+.nav-header-centrale li, .nav-header-destra li, .social li {
   text-decoration: none;
   display: inline-block;
   padding-right: 10px;
@@ -302,15 +305,40 @@ footer {
 
 /* FOOTER-BOTTOM */
 .footer-bottom {
-  background-color: orange;
+  background-color: #05224E;
 }
-.socials {
-  background-color: brown;
+.social li {
+  color: #98AEE1;
+  font-size: 23px;
+}
+.copyright {
+  color: #98AEE1;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.made {
+  color: #5A6887;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.lista-footer {
+  list-style: none;
+}
+.lista-footer li {
+  margin-bottom: 5px;
+}
+.lista-footer li a {
+  color: #98AEE1;
+  font-weight: bold;
+}
+.titolo-lista-bianco {
   color: #fff;
-}
-.lista {
-  background-color: violet;
-  color: yellow;
+  font-size: 20px;
 }
 /* /FOOTER-BOTTOM */
 
