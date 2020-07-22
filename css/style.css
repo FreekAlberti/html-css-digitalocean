@@ -31,12 +31,15 @@ color: #586686;
 .stories i,
 .indice-servizi i,
 .test-speed i,
-.slider2 i {
+.read-story a i {
   margin-left: 5px;
 }
 .titolo-bianco {
   font-size: 35px;
   color: #fff;
+}
+.pallini {
+  padding-inline-start: 0;
 }
 /* /MIX */
 
@@ -187,21 +190,21 @@ color: #586686;
   font-size: 45px;
   color: rgb(5, 34, 78);
   position: absolute;
-  top: 35%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translatey(-50%);
   left: 0;
 }
 .angolo-des {
   font-size: 45px;
   color: rgb(5, 34, 78);
   position: absolute;
-  top: 35%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translatey(-50%);
   right: 0;
 }
 .max {
-  max-height: 400px;
-  margin: 0 50px;
+  width: 100%;
+  padding: 0 30px;
 }
 .pagina {
   margin-top: 30px;
@@ -224,7 +227,7 @@ color: #586686;
 
 /* QUINTA SEZIONE */
 .around-the-world {
-   background-image: linear-gradient(to bottom right, #1761C6, #174A99);
+  background-image: linear-gradient(to bottom right, #1761C6, #174A99);
   color: #fff;
   padding: 40px 0;
 }
@@ -263,8 +266,11 @@ color: #586686;
 /* /QUINTA SEZIONE */
 
 /* SESTA SEZIONE */
-.slider2 img {
-  max-width: 400px;
+.max img {
+  width: 80%;
+}
+#ruolo {
+  color: rgb(5, 34, 78);
 }
 /* /SESTA SEZIONE */
 
@@ -275,7 +281,22 @@ footer {
 
 /* FOOTER-TOP */
 .footer-top {
-  background-color: yellow;
+  background-image: linear-gradient(to bottom right, #1761C6, #174A99);
+  padding: 60px;
+}
+.bottone-bianco {
+  border: 1px solid white;
+  padding: 15px 20px;
+  color: #11C0EA;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bottone-bianco:hover {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: #11C0EA;
 }
 /* /FOOTER-TOP */
 
@@ -298,17 +319,5 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .logo-partnership img {
     max-height: 60px;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  .max {
-    max-height: 300px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .max {
-    max-height: 230px;
   }
 }
