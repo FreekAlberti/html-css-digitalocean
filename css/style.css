@@ -342,6 +342,33 @@ footer {
 }
 /* /FOOTER-BOTTOM */
 
+/* SAMMY */
+.sammy {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.sammy img {
+  border-radius: 10px;
+}
+.notifica {
+  position: absolute;
+  top: 0;
+  right: -22px;
+  transform: translate(-50%, -50%);
+}
+.decorazione-notifica {
+  background-color: red;
+  border: 3px solid white;
+  color: white;
+  border-radius: 100%;
+  font-weight: bold;
+  width: 25px;
+}
+/* /SAMMY */
+
 /* /FOOTER */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
